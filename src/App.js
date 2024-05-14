@@ -1,13 +1,14 @@
-import './Navbar.css'
-import './addSgpa.css'
 import Navbar from './Navbar';
 import AddSgpaRow from './addSgpa';
+
 function App() {
   return (
+
     <div className="App">
       <Navbar />
       <AddSgpaRow />
     </div>
+    
   );
 }
 
