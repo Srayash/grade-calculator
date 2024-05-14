@@ -66,7 +66,8 @@ const AddSgpaRow = () => {
                                     </select>
                                 </div>    
                                 <div className="col">
-                                    <button className="bn30"id="remove" onClick={()=>handleDelete(i)}>Remove</button>
+                                    <button className="bn30"id="remove-large" onClick={()=>handleDelete(i)}>Remove</button>
+                                    <button className="bn30"id="remove-small" onClick={()=>handleDelete(i)}>X</button>
                                 </div>
                             </div>
                         )

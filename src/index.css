@@ -82,6 +82,13 @@ border-radius: 7px;
   color: #fff;
 }
 
+#remove-large{
+  display: block;
+}
+#remove-small{
+  display: none;
+}
+
 /*responsive template*/
 
 @media screen and (max-width:599px) {
@@ -92,6 +99,13 @@ border-radius: 7px;
 
     .container{
       padding: 10px 20px;
+    }
+    #remove-large{
+      display: none;
+    }
+    #remove-small{
+      display: block;
+      
     }
 } 
 
