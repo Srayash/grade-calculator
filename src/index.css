@@ -46,19 +46,20 @@ code {
 
 .container{
   padding: 10px 50px;
-  width: fit-content;
+  width: 90%;
 }
 
 .row{
   display: flex;
   align-items: center;
   gap: 20px;
+  width: 100%;
   margin-bottom: 20px;
 }
 
 #credit{
 height: 30px;
-width: 110px;
+width: 130px;
 border: none;
 border-radius: 7px;
 padding: 10px;
@@ -66,13 +67,31 @@ padding: 10px;
 
 #grade{
 height: 50px;
-width: 130px;
+width: 150px;
 border-radius: 7px;
 }
 
 .sgparesult{
   color: #fff;
 }
+
+/*responsive template*/
+
+@media screen and (max-width:599px) {
+  #credit{
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    }
+    
+    #grade{
+    height: 50px;
+    width: 80px;
+    border-radius: 7px;
+    }
+} 
 
 /*button template*/
 
