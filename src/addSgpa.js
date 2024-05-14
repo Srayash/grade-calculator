@@ -73,12 +73,8 @@ const AddSgpaRow = () => {
                     }
                 </div>
                 <div className="row">
-                    <div className="col">
                         <button id = "add" className="bn30" onClick={handleClick} >Add Course</button>
-                    </div>
-                    <div className="col">
                         <button id = "submit" className="bn30" onClick={calculateSgpa} >Get SGPA</button>
-                    </div>
                 </div>
                 <div className="result">
                     <p className="sgparesult">
