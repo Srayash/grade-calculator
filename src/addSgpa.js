@@ -1,9 +1,4 @@
-import { useState, useEffect } from "react";
-import ReactGA from "react-ga";
-
-useEffect(()=>{
-    ReactGA.pageview(window.location.pathname);
-}, []);
+import { useState} from "react";
 
 const AddSgpaRow = () => {
     const [data, setData] = useState([{credit:"",grade:""}])
