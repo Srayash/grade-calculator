@@ -2,8 +2,9 @@ import Navbar from './Navbar';
 import AddSgpaRow from './addSgpa';
 import ReactGA from "react-ga";
 
-const MEASUREMENT_ID = "G-K795Y58GZB";
-ReactGA.initialize(MEASUREMENT_ID);
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-K795Y58GZB');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
